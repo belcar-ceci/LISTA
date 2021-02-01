@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Configuración global ToDoList */
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(233, 195, 146);
+    font-family: Roboto, sans-serif;
+  }
+  
+  button {
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  div, ul {
+    width: 400px;
+    padding: 20px;
+  }
+  
+  /* Contendor para las tareas */
+  div {
+    border-radius: 20px 20px 0 0;
+    background-color: rgb(63, 150, 150);
+  }
+  
+  input, button {
+    font-size: large;
+  }
+  
+  div button {
+    color: rgb(161, 11, 154);
+  }
+  
+  
+  /* Lista de tareas */
+  ul {
+    border-radius: 0 0 20px 20px;
+    background-color: rgb(116, 110, 110);
+    box-shadow: 0 10px 6px -6px #777;
+    list-style: none;
+    margin: 0;
+  }
+  
+  li {
+    color: rgb(106, 58, 168);
+    padding: 10px;
+    margin: 0;
+    display: grid;
+    grid-gap: 5px;
+  }
+  
+  ul button {
+    color: rgb(220, 20, 203);
+  } 
